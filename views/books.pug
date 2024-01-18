@@ -1,0 +1,13 @@
+html 
+    head 
+    title Books 
+    style 
+        include ./style.css
+    body 
+    h1 Books 
+
+    ul 
+        each val in books
+            li= val.title
+            hr
+            li= val.author
